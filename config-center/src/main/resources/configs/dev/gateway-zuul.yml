@@ -34,6 +34,9 @@ zuul:
     sms:
       path: /api-n/**
       serviceId: notification-center
+    demo:
+      path: /api-d/**
+      serviceId: laxf-demo
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 60000
